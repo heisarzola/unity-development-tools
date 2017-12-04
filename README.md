@@ -15,6 +15,9 @@ The easiest way to make use of the provided tools, is to download the zip of the
 [Twitter](https://twitter.com/heisarzola/)
  | [Facebook](https://www.facebook.com/heisarzola/)
  | [Developer Blog](http://heisarzola.com/devblog/)
+ 
+ By the way, considering you are using GitHub, you might be interested in a 
+ [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28). Where you will also receive notifications **when new tools are added to this repository**, so make sure to check it out.
 
 ## License
 
