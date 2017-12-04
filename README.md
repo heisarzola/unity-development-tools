@@ -1,5 +1,5 @@
 # Unity Development Tools
-This repository is a collection of several tools and code snippets to improve development speed and practices in the "Unity" game engine.
+This repository is a collection of several tools and code snippets to improve development speed and practices for the [Unity game engine](https://unity3d.com/).
 
 ## Getting Started
 
