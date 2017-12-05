@@ -26,6 +26,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Not all of the tools were made from scratch, but rather they might've been inspired after, or improved from pre-existing code.
-So here are some people you caan personally thank if you want to:
+So here are some people you can personally thank for their own contributions if you want to:
 
 * [Liortal](https://github.com/liortal53/)
