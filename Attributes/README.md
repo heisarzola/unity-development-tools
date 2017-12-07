@@ -1,16 +1,17 @@
 # Attributes
-Have you ever seen that sometimes above classes, methods and even fields people use some type of commands between brackeys? i.e.
+Have you ever seen that sometimes above or to the side of classes, methods and even fields, people use some type of commands between brackets? i.e.:
 
 [ContextMenu("Some Text")]
+
 public void MyMethod()
 
-Well those are called attributes, in fact, [Unity has many already built-in for you to play with](https://docs.unity3d.com/ScriptReference/AddComponentMenu.html), stuff like show private fields, add tooltips, headers, etc. 
+Well those are called attributes, in fact, [Unity has many already built-in for you to play with](https://docs.unity3d.com/ScriptReference/AddComponentMenu.html), stuff like show private fields, add tooltips, headers, for your inspector classes, etc. Neat stuff you should check out really.
 
-What you will be finding here are custom made ones that are useful for other things not included in the built-in solutions, and I assure you will get to love some of these.
+But what you will be finding here are custom made ones that are useful for other things not included in the built-in solutions, and I assure you will get to love some of these.
 
 ## General Notes
 
-* For this particular subfolder ("Attributes"), if specific usuage or implementation is required for any of the provided attributes, it will be specified on the README file of that folder, so be sure to check them out.
+* For this particular subfolder, if specific usage or implementation is required for any of the provided attributes, it will be specified on the README file of that folder, so be sure to read them.
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Attributes) instead of the whole project if you want to.
 
 ## As A Reminder 
