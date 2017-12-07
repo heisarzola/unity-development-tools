@@ -183,7 +183,7 @@ public static class StringExtension
         return _stringBuilder.ToString();
     }
 
-    
+
     /// <summary>
     /// <para>Adds a given char after every Nth position.</para>
     /// <para>i.e. Adding '_' to the string "Hello World" every 2nd char will result in "He_ll_o _Wo_rl_d".</para>
@@ -263,27 +263,27 @@ public static class StringExtension
     #region Rich Text Formats
 
     /// <summary>
-    /// Sets the color of the text according to the parameter value.
+    /// Surrounds the given text in the needed tags for rich text color, with the specified color.
     /// </summary>
     /// <param name="thisString">Current string.</param>
-    /// <param name="color">Color.</param>
+    /// <param name="color">Color that the text should be.</param>
     public static string AddRichTextTag_Color(this string thisString, RichTextColors color) // [6]
     {
         return string.Format("<color={0}>{1}</color>", color.ToString(), thisString);
     }
 
     /// <summary>
-    /// Sets the size of the text according to the parameter value, given in pixels.
+    /// Surrounds the given text in the needed tags for rich text size, with the specified size.
     /// </summary>
     /// <param name="thisString">Current string.</param>
-    /// <param name="size">Size.</param>
+    /// <param name="size">Size the text should be.</param>
     public static string AddRichTextTag_Size(this string thisString, int size) // [6]
     {
         return string.Format("<size={0}>{1}</size>", size, thisString);
     }
 
     /// <summary>
-    /// <para>Returns </para>
+    /// Surrounds the given text in the needed tags for bold text.
     /// </summary>
     /// <param name="thisString">Current string.</param>
     public static string AddRichTextTag_Bold(this string thisString) // [6]
@@ -292,7 +292,7 @@ public static class StringExtension
     }
 
     /// <summary>
-    /// Renders the text in italics.
+    /// Surrounds the given text in the needed tags for italics text.
     /// </summary>
     /// <param name="thisString">Current string.</param>
     public static string AddRichTextTag_Italics(this string thisString) // [6]
