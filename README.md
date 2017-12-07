@@ -29,3 +29,4 @@ Not all of the tools were made from scratch, but rather they might've been inspi
 So here are some people you can personally thank for their own contributions if you want to:
 
 * [Liortal](https://github.com/liortal53/)
+* [kir-avramenko](https://github.com/kir-avramenko/)
