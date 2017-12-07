@@ -11,8 +11,9 @@ On the long run this isn't practical, which is why instead you can use [extensio
 
 If Invert() is added as an extension method for the string class, any string value (variable or not) can use it anywhere at anytime:
 * "myString".Invert(); // Results in: "gnirtSym"
-* myStringVariable.Invert(); // Inverts the string value of "myStringVariable"
-* ***NO LONGER NEED TO DO:*** myStringVariable = Invert(myStringVariable); // Verbose/tedious on the long run.
+* myStringVariable.Invert(); // Returns the inverted string value stored in myStringVariable
+* You can also **concatenate the method calls if you wish**. Although something like "someString".Invert().Invert() doesn't make much sense in this example, depending on the extension methods you use and create it might be a powerful combination:
+	* i.e. "myString".Invert().Capitalize().Append("otherString").Invert(); // Assuming you created the extension methods Append() and Capitalize(), but it is much more manageable than Invert(Append(Capitalize(Invert("myString")),"otherString"))
 
 ## General Notes
 

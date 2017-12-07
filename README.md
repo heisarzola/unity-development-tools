@@ -1,11 +1,15 @@
 # Unity Development Tools
-This repository is a collection of several tools and code snippets to improve development speed and practices for the [Unity game engine](https://unity3d.com/).
+This repository is a collection of several tools and code snippets to improve development speed, and promote best practices when using the [Unity game engine](https://unity3d.com/).
 
 ## Getting Started
 
 The easiest way to make use of the provided tools, is to download the zip of the project and copy-paste the parts you want into your Unity solution.
 
 (If you don't know how to open .zip files, you can simply install [7-Zip](http://www.7-zip.org/) to open it, and extract the folders where you want them.)
+
+Likewise, every subfolder in this repository has its own README.md file with a direct link to download that specific folder, alongside specific subfolder descriptions, notes and tips.
+
+Finally, every script was documented for easy usage when making use of [Visual Studio](https://www.visualstudio.com/). When referencing the different classes and elements, descriptions of what each method does and parameter you should provide will appear, so please abstain from removing the "/// <summary></summary>" segments on methods and properties. They are there for your own good.
 
 ## About The Author
 
