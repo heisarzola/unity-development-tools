@@ -1,7 +1,54 @@
 ﻿
 /*---------------- Creation Date: 15-Apr-17 -----------------//
-//------------ Last Modification Date: 15-Jun-17 ------------//
+//------------ Last Modification Date: 15-Apr-17 ------------//
 //------ Luis Raul Arzola Lopez : http://heisarzola.com ------*/
+
+/*----------------------------- OVERVIEW -------------------------------//
+ *   <<< NAME >>>
+ *       -- Scriptable Object Factory.
+ *       
+ *   <<< DESCRIPTION >>>
+ *       -- A helper class for instantiating ScriptableObjects in the editor.
+ *
+ *   <<< LIMITATIONS >>>
+ *       -- None.
+ *
+ *   <<< DEPENDENCIES >>>
+ *       -- Plugins: None.
+ *       -- Module: 
+ *          -- BaseSakuraVariableSO
+ *          -- ScriptableObjectFactory
+ *          -- EditableEntry
+//----------------------------------------------------------------------*/
+
+/*------------------------- TABLE OF CONTENTS --------------------------*/
+/*  ScriptableObjectFactory
+ *      <<< EMPTY >>> 
+ *      -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+ *      <<< EMPTY >>>
+ *      -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+ *      <<< PUBLIC STATIC METHODS >>>
+ *          -- void CreateScriptableObject()
+ *          -- Assembly GetAssembly()
+ *          -- Assembly GetPluginAssembly()
+ */
+//----------------------------------------------------------------------*/
+
+/*------------------------------- NOTES --------------------------------//
+ *   <<< TO-DO LIST >>>
+ *       -- <<< EMPTY >>>
+ *
+ *   <<< POSSIBLES >>>
+ *       -- <<< EMPTY >>>
+ *
+ *   <<< SOURCES >>>
+ *       -- [1] Most of the class : https://github.com/liortal53/ScriptableObjectFactory/blob/master/Assets/Editor/ScriptableObjectFactory.cs
+//---------------------------------------------------------------------*/
+
+/*---------------------------- CHANGELOG -------------------------------//
+ *   <<< V.1.0.0 -- 15-Apr-17 >>>
+ *       -- Class creation.
+//----------------------------------------------------------------------*/
 
 using System;
 using System.Linq;
@@ -46,7 +93,7 @@ public class ScriptableObjectFactory// [1]
         }
 
         // Show the selection window.
-        ScriptableObjectFactoryWindow.Init(allScriptableObjects.ConcatArrays(allPluginScriptableObjects));
+        ScriptableObjectFactoryWindow.Init(ConcatArrays(allScriptableObjects, allPluginScriptableObjects));
     }
 
     /// <summary>
@@ -68,11 +115,6 @@ public class ScriptableObjectFactory// [1]
             return null;
         }
     }
-}
-
-
-public static class GenericArrayExtension
-{
 
     /// <summary>
     /// <para>Returns an array that is the combination of the two selected arrays.</para>
@@ -82,7 +124,7 @@ public static class GenericArrayExtension
     /// <param name="otherArray">Other array that will be concatenated.</param>
     /// <returns></returns>
     /// <param name="ignoreDuplicates">(OPTIONAL) Should duplicated entries in the resulting array be ignored?</param>
-    public static T[] ConcatArrays<T>(this T[] array, T[] otherArray, bool ignoreDuplicates = false) // [1]
+    public static T[] ConcatArrays<T>(T[] array, T[] otherArray, bool ignoreDuplicates = false) // [1]
     {
         T[] resultantArray = new T[array.Length + otherArray.Length];
 
@@ -92,4 +134,4 @@ public static class GenericArrayExtension
         return (ignoreDuplicates ? resultantArray.Distinct().ToArray() : resultantArray);
     }//End of ConcatArrays
 
-}//End of class
+}

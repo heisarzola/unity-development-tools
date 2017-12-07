@@ -51,3 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fd2e0001ce8ce42a517846d2b5ae5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  testBool: 0
+  testString: My String
+  thisCouldBeAnyVariableType: 
+  someVariableThatWontBeUsed: 
