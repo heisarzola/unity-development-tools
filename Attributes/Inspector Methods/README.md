@@ -1,7 +1,9 @@
 # Inspector Methods
 All relevant information for this attribute has been documented on [Arzola's devblog](http://heisarzola.com/devblog/unity-tip-2/).
 
-![picture alt](Inspector Methods.png "End Result")
+#### End Result:
+
+![picture alt](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Attributes/Inspector%20Methods/Inspector%20Methods.png "This is how it should look in your inspector.")
 
 ## General Notes
 

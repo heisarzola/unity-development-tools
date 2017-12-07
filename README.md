@@ -11,6 +11,14 @@ Likewise, every subfolder in this repository has its own README.md file with a d
 
 Finally, every script was documented for easy usage when making use of [Visual Studio](https://www.visualstudio.com/). When referencing the different classes and elements, descriptions of what each method does and parameter you should provide will appear, so please abstain from removing the "summary" notes on top of and properties. They are there for your own good.
 
+## Additional Notes
+
+* .meta files are included in the repository so that if you end up updating the tools in your local Unity copy (when a .unitypackage is provided), Unity knows what files and folders replace what.
+* The author does not claim to have made ALL of the provided tools and snippets, some are just improvements and adaptations over other creators' work. (Check "Acknowledgments" on each subfolder.)
+* Currently the intention is to keep these tools in C# only, no plans of porting to other languages.
+* If you wish to provide tools to include, do please *send an e-mail* to ***contact@heisarzola.com***.
+* Likewise, if you want to report a problem or bug, please do so in the ***issues section*** of the GitHub repository.
+
 ## About The Author
 
 [Arzola](http://heisarzola.com) is an indie game developer that works under the motto: 
