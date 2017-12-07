@@ -12,12 +12,14 @@ On the long run this isn't practical, which is why instead you can use [extensio
 If Invert() is added as an extension method for the string class, any string value (variable or not) can use it anywhere at anytime:
 * "myString".Invert(); // Results in: "gnirtSym"
 * myStringVariable.Invert(); // Returns the inverted string value stored in myStringVariable
-* You can also **concatenate the method calls if you wish**. Although something like "someString".Invert().Invert() doesn't make much sense in this example, depending on the extension methods you use and create it might be a powerful combination:
-	* i.e. "myString".Invert().Capitalize().Append("otherString").Invert(); // Assuming you created the extension methods Append() and Capitalize(), but it is much more manageable than Invert(Append(Capitalize(Invert("myString")),"otherString"))
+* You can also **concatenate the extension method calls if you wish**. Although something like "someString".Invert().Invert() doesn't make much sense in this example, depending on the extension methods you use and create it might be a powerful combination:
+	* Assuming you create all of the following extension methods, something like ***"myString".Invert().Capitalize().Append("otherString").Invert();*** would replace the verbose ***Invert(Append(Capitalize(Invert("myString")),"otherString"))***
+	
+But see? No need to reference a method within a class, a lot more practical and cleaner.
 
 ## General Notes
 
-* Some of the class extensions are dependent of one another, for example, to use StringExtension you are going to need to download StringBuilderExtension as well.
+* Some of the class extensions are dependent of one another, for example, to use ***StringExtension*** you are going to need to download ***StringBuilderExtension*** as well. (Every script has a "dependencies" segment written on the top notes, after the short script description, where you can see what is needed.)
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Extensions) instead of the whole project if you want to.
 
 ## As A Reminder 
