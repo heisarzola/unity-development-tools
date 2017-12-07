@@ -17,7 +17,7 @@ If Invert() is added as an extension method for the string class, any string val
 ## General Notes
 
 * Some of the class extensions are dependent of one another, for example, to use StringExtension you are going to need to download StringBuilderExtension as well.
-* You can [download this folder only] instead of the whole project if you want to.
+* You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Extensions) instead of the whole project if you want to.
 
 ## As A Reminder 
  * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28).
