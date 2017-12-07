@@ -1,9 +1,7 @@
 # Attributes
 Have you ever seen that sometimes above or to the side of classes, methods and even fields, people use some type of commands between brackets? i.e.:
 
-[ContextMenu("Some Text")]
-
-public void MyMethod()
+[ContextMenu("Some Text")] public void MyMethod() {}
 
 Well those are called attributes, in fact, [Unity has many already built-in for you to play with](https://docs.unity3d.com/ScriptReference/AddComponentMenu.html), stuff like show private fields, add tooltips, headers, for your inspector classes, etc. Neat stuff you should check out really.
 
@@ -17,7 +15,7 @@ But what you will be finding here are custom made ones that are useful for other
 ## As A Reminder 
  * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28).
  Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
-* This project is licensed under the MIT License (located on git root if you want to read it).
+* This project's license is located in the repository root under the name "LICENSE.md".
 
 ## Attributes Acknowledgments
 

@@ -16,7 +16,7 @@ Finally, every script was documented for easy usage when making use of [Visual S
 * .meta files are included in the repository so that if you end up updating the tools in your local Unity copy (when a .unitypackage is provided), Unity knows what files and folders replace what.
 * The author does not claim to have made ALL of the provided tools and snippets, some are just improvements and adaptations over other creators' work. (Check "Acknowledgments" on each subfolder.)
 * Currently the intention is to keep these tools in C# only, no plans of porting to other languages.
-* If you wish to provide tools to include, do please *send an e-mail* to ***contact@heisarzola.com***.
+* If you wish to provide tools to include them in this repo (and comply with the [MIT license](LICENSE.md) it has), do please *send an e-mail* to ***contact@heisarzola.com***.
 * Likewise, if you want to report a problem or bug, please do so in the ***issues section*** of the GitHub repository.
 
 ## About The Author
@@ -33,12 +33,12 @@ Finally, every script was documented for easy usage when making use of [Visual S
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project's license is available in the provided "[LICENSE.md](LICENSE.md)" file.
 
 ## Acknowledgments
 
 Not all of the tools were made from scratch, but rather they might've been inspired after, or improved from pre-existing code.
 So here are some people you can personally thank for their own contributions if you want to:
 
-* [Liortal](https://github.com/liortal53/)
-* [kir-avramenko](https://github.com/kir-avramenko/)
+* [Liortal](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory.
+* [kir-avramenko](https://github.com/kir-avramenko/) - For providing the Rich Text Tags idea for the string class extension.

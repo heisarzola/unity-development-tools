@@ -25,7 +25,7 @@ But see? No need to reference a method within a class, a lot more practical and 
 ## As A Reminder 
  * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28).
  Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
-* This project is licensed under the MIT License (located on git root if you want to read it).
+* This project's license is located in the repository root under the name "LICENSE.md".
 
 ## Extension Classes Acknowledgments
 

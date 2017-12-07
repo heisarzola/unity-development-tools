@@ -1,13 +1,13 @@
-MIT License
-
 Copyright (c) [2017-Until The End Of Time] Arzola
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, and/or sublicense copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+to use, copy, modify, merge, publish,and/or sublicense distribute copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1. It will ***NEVER be allowed to be partially/completely sold or rented as a standalone product or service*** (i.e. Asset Store Asset).
+1. It will ***NEVER*** be allowed to partially/completely sell or rent, the contents of the repository as a standalone product or service (i.e. Asset Store Asset). Meaning, the provided code ***CAN be included in commercial projects***, so long as the contents of the provided source ***ISN'T*** part of your selling points. To give some examples:
+	i. It ***IS*** OK to sell an asset or tool that involves AI (i.e.), given how this tool collection didn't provide one, and had to be made from scratch (with the aid of the provided tools). 
+	ii. However it will ***NOT*** be allowed to sell the module "String Extension" (to give an example), that ***IS*** included, as its own standalone product, or as part of the "key features" of an "Extension Collection". This has to be enforced, given you would be attempting to profit off someone elses work (either the original author of the collection, or from those that provided the original code for a given tool).
 2. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
