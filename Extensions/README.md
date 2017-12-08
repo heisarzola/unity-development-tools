@@ -29,4 +29,4 @@ But see? No need to reference a method within a class, a lot more practical and 
 
 ## Extension Classes Acknowledgments
 
-* [kir-avramenko](https://github.com/kir-avramenko/DebugLog-Helper) for the Rich Text Tags methods on StringExtension.
+* [kir-avramenko](https://github.com/kir-avramenko/DebugLog-Helper) for the Rich Text Tags methods on StringExtension. The original intention of these was to beautify the console outputs, but they can also be used for components that support rich text, so they were renamed and re-purposed.
