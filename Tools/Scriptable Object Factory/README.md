@@ -18,4 +18,4 @@ Once installed, the tool will be located on the top menu under the "Tools/Projec
 
 ## Scriptable Object Factory Acknowledgments
 
-* [Liortal](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory. The original work was improved to be able to support the "first-pass" assembly (for Scriptable Objects in the Plugins/Standard Assets/Pro Standard Assets), to be able to show namespaces, and to provide a cleaner default naming convention for created assets.
+* [Liortal](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory. The original work was improved to be able to support the "first-pass" assembly (for Scriptable Objects in the Plugins/Standard Assets/Pro Standard Assets folders), to be able to show namespaces, and to provide a cleaner default naming convention for created assets.
