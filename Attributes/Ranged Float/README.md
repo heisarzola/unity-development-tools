@@ -1,16 +1,16 @@
 # Ranged Float
-The RangedFloat attribute, drawers and class collection is a set of tools intended to easily draw in inspector a range between two float values.
+The ***RangedFloat*** attribute, drawers and class collection is a set of tools intended to easily draw in inspector a range between two ***float*** values.
 
 #### End Result:
 
-![](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Tools/Scriptable%20Object%20Factory/Scriptable%20Object%20Factory.gif)
+![](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Attributes/Ranged%20Float/Ranged%20Float.gif)
 
 If (see the provided examples for reference).
 
 ## General Notes
-* The RangedFloatAttribute (what is between brackets) will only work on the provided RangedFloat class.
-* The RangedFloat comes with a built in random within range method. If you use a RangedInt instance as an int, it will automatically fetch a random value between min and max.
-	* i.e. myFloat = myRangedFloat; // myInt now has a value between myRangedInt's min and max.
+* The ***RangedFloatAttribute*** (what is between brackets) will only work on the provided ***RangedFloat*** class.
+* The ***RangedFloat*** comes with a built in random within range method. If you use a ***RangedFloat*** instance as a float, it will automatically fetch a random value between min and max.
+	* i.e. myFloat = myRangedFloat; // myFloat now has a value between myRangedFloat's min and max.
 	* Likewise, you can call it explicitly if you want to: i.e. myFloat = myRangedFloat.GetRandomValue();// Same result as above.	
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Attributes/Ranged%20Float) instead of the whole project if you want to.
 
