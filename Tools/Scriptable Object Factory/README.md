@@ -5,7 +5,7 @@ Once installed, the tool will be located on the top menu under the "Tools/Projec
 
 #### Provided Tool:
 
-![](https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools/Scriptable%20Object%20Factory/Scriptable%20Object%20Factory.gif "Tool is found under "Tools/Project" when installed.")
+![](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Tools/Scriptable%20Object%20Factory/Scriptable%20Object%20Factory.gif)
 
 ## General Notes
 
