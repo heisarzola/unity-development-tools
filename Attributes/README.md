@@ -19,4 +19,5 @@ But what you will be finding here are custom made ones that are useful for other
 
 ## Attributes Acknowledgments
 
-* [Liortal](https://github.com/liortal53/) for providing the base for the Scriptable Object Factory.
+* [Hyper Games Studio](https://github.com/HyperGamesStudio/unity-minmax-slider/blob/master/Editor/MinMaxSliderDrawer.cs) - For providing the base code and idea for the RangedInt/Float classes.
+* [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/0de9be35044bab97cbe79b9ced695585) - For providing the idea of having options to edit the limits on the RangedInt/Float classes.

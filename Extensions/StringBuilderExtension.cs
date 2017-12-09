@@ -1,7 +1,7 @@
 ﻿
 /*---------------- Creation Date: 12-Jul-17 -----------------//
 //------------ Last Modification Date: 12-Jul-17 ------------//
-//------ Luis Raul Arzola Lopez : http://heisarzola.com ------*/
+//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>

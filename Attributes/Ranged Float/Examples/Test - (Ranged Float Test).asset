@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b70617f23e74966429f8f0b118bde2ef, type: 3}
   m_Name: Test - (Ranged Float Test)
   m_EditorClassIdentifier: 
-  exampleFive:
-    min: 0
+  exampleOne:
+    min: 12
+    max: 27
+  exampleTwo:
+    min: 0.1
     max: 1
-  exampleSix:
-    min: 0
-    max: 1
-  exampleSeven:
-    min: 0
-    max: 1
-  exampleEight:
-    min: 0
-    max: 1
+  exampleThree:
+    min: -16.059273
+    max: -1.9932632
+  exampleFour:
+    min: 0.22822255
+    max: 0.5029136
