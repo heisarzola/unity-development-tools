@@ -1,7 +1,7 @@
 ﻿
 /*---------------- Creation Date: 06-Dec-17 -----------------//
-//------------ Last Modification Date: 06-Dec-17 ------------//
-//------ Luis Raul Arzola Lopez : http://heisarzola.com ------*/
+//------------ Last Modification Date: 09-Dec-17 ------------//
+//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -32,7 +32,9 @@
 /*---------------------------- CHANGELOG -------------------------------//
  *   <<< V.1.0.0 -- 06-Dec-17 >>>
  *       -- Created base class and adapted source [1] to work without necessarily having to manually create folders, works in a folder that is ignored by compiler, and has neatly organized instructions when preview is unavailable.
-//----------------------------------------------------------------------*/
+ *   <<< V.1.0.1 -- 09-Dec-17 >>>
+ *       -- If a thumbnail already exists, a new one won't be created.
+ //----------------------------------------------------------------------*/
 
 using System.IO;
 using UnityEngine;
@@ -48,9 +50,9 @@ public class ScenePreview : Editor
     //----------------------------------- FIELDS -----------------------------------------//
     //------------------------------------------------------------------------------------//
 
-    private const string PREVIEW_FOLDERS = "Scene Preview Thumbnails";
-    private const float EDITOR_MARGIN = 50;
-    private const float PREVIEW_MARGIN = 5;
+    private const string _PREVIEW_FOLDERS = "Scene Preview Thumbnails";
+    private const float _EDITOR_MARGIN = 50;
+    private const float _PREVIEW_MARGIN = 5;
 
     //------------------------------------------------------------------------------------//
     //---------------------------------- METHODS -----------------------------------------//
@@ -76,7 +78,7 @@ public class ScenePreview : Editor
         var sceneNames = targets.Select(t => ((SceneAsset)t).name).OrderBy(n => n).ToArray();
         var previewsCount = sceneNames.Length;
         var previewWidth = Screen.width;
-        var previewHeight = (Screen.height - EDITOR_MARGIN * 2 - (PREVIEW_MARGIN * previewsCount)) / previewsCount;
+        var previewHeight = (Screen.height - _EDITOR_MARGIN * 2 - (_PREVIEW_MARGIN * previewsCount)) / previewsCount;
 
         for (int i = 0; i < sceneNames.Length; i++)
         {
@@ -102,7 +104,7 @@ public class ScenePreview : Editor
         }
         else
         {
-            GUI.DrawTexture(new Rect(index, EDITOR_MARGIN + index * (height + PREVIEW_MARGIN), width, height),
+            GUI.DrawTexture(new Rect(index, _EDITOR_MARGIN + index * (height + _PREVIEW_MARGIN), width, height),
                 Resources.Load(sceneName) as Texture, ScaleMode.ScaleToFit);
         }
     }
@@ -113,7 +115,7 @@ public class ScenePreview : Editor
     /// <param name="sceneName">Scene name without extension.</param>
     private static string GetPreviewPath(string sceneName)
     {
-        string folderPath = Application.dataPath.Append("/Gizmos/", PREVIEW_FOLDERS, "/Editor/Resources");
+        string folderPath = Application.dataPath.Append("/Gizmos/", _PREVIEW_FOLDERS, "/Editor/Resources");
 
         if (!Directory.Exists(folderPath))
         {

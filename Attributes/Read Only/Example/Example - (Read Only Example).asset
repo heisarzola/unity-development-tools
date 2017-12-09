@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf52336c292e488459617616baedd6b3, type: 3}
   m_Name: Example - (Read Only Example)
   m_EditorClassIdentifier: 
-  _public: 
+  _public: I Can Edit This
   publicReadOnly: You Cannot Edit This In The Inspector
-  _private: 
+  _private: This Too
   _privateReadOnly: Cannot Edit This Either
