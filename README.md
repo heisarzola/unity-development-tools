@@ -43,7 +43,8 @@ This project's license is available in the provided "[LICENSE.md](LICENSE.md)" f
 Not all of the tools were made from scratch, but rather they might've been inspired after, or improved from pre-existing code.
 So here are some people (in alphabetical order) you can personally thank for their own contributions if you want to:
 
+* [anchan828](https://github.com/anchan828/) - For providing (the almost untouched) AnimatorParameter and EnumLabel attributes.
 * [Hyper Games Studio](https://github.com/HyperGamesStudio/) - For providing the base code and idea for the RangedInt/Float classes.
 * [kir-avramenko](https://github.com/kir-avramenko/) - For providing the Rich Text Tags idea for the string class extension.
 * [Liortal](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory.
-* [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/) - For providing the idea of having options to edit the limits on the RangedInt/Float classes, and the base for the Highlight attribute.
+* [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/) - For providing the idea of having options to edit the limits on the RangedInt/Float classes, the base for the Highlight attribute, and the base for the Bar attribute.

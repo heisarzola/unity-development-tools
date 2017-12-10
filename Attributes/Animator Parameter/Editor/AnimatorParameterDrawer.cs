@@ -8,7 +8,7 @@
  *       -- Animator Parameter Drawer.
  *       
  *   <<< DESCRIPTION >>>
- *       -- Empty attribute intended to leave disabled any provided field it is found above. (This functionality comes from its drawer)
+ *       -- Allows the selection of a valid parameter name from an animator to store it in the given string variable.
  *
  *   <<< LIMITATIONS >>>
  *       -- If you switch/delete/rename or move the order of a parameter that was referenced, issues might arise, including losing said references when viewed in the inspector.
