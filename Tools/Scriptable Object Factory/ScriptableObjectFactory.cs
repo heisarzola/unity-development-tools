@@ -65,7 +65,7 @@ public class ScriptableObjectFactory// [1]
     //---------------------------------- METHODS -----------------------------------------//
     //------------------------------------------------------------------------------------//
 
-    [MenuItem("Tools/Project/Scriptable Object Asset Creator")]
+    [MenuItem("Tools/Project/Scriptable Object Factory")]
     public static void CreateScriptableObject()
     {
         // Get all classes derived from ScriptableObject

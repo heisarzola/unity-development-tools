@@ -1,7 +1,7 @@
 # Scriptable Object Factory
-For further documentation on this tool and Scriptable Objects, refer to [Arzola's devblog](http://heisarzola.com/devblog/unity-tip-3/).
+This tool adds a dockable editor window that allows the easy creation of **Scriptable Objects**, without the need to individually implement the ```[CreateAssetMenu("Some Directory")]``` attribute.
 
-Once installed, the tool will be located on the top menu under the "Tools/Project" directory.
+For further documentation on this tool and Scriptable Objects, refer to [Arzola's devblog](http://heisarzola.com/devblog/unity-tip-3/).
 
 #### Provided Tool:
 
@@ -9,6 +9,7 @@ Once installed, the tool will be located on the top menu under the "Tools/Projec
 
 ## General Notes
 
+* Once installed, the tool will be located on the top menu under the "Tools/Project/Scriptable Object Factory" directory.
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools/Scriptable%20Object%20Factory) instead of the whole project if you want to.
 
 ## As A Reminder 
