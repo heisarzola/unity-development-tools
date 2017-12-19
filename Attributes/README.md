@@ -1,7 +1,13 @@
 # Attributes
 Have you ever seen that sometimes above or to the side of classes, methods and even fields, people use some type of commands between brackets? i.e.:
 
-[ContextMenu("Some Text")] public void MyMethod() {}
+```
+[ContextMenu("Some Text")] // <- This is an attribute to show this method in inspector via a right click on the component.
+public void MyMethod() {}
+
+[SerializeField] // <- This is an attribute to show private things in inspector.
+private string _myPrivateString;
+```
 
 Well those are called attributes, in fact, [Unity has many already built-in for you to play with](https://docs.unity3d.com/ScriptReference/AddComponentMenu.html), stuff like show private fields, add tooltips, headers, for your inspector classes, etc. Neat stuff you should check out really.
 
@@ -13,11 +19,11 @@ But what you will be finding here are custom made ones that are useful for other
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Attributes) instead of the whole project if you want to.
 
 ## As A Reminder 
- * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28).
- Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
+* If you make any changes/improvements to this tool, please do consider sharing them to update the repository. The easiest way to do so is via an e-mail to: contact@heisarzola.com
+* There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28). Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
 * This project's license is located in the repository root under the name "LICENSE.md".
 
 ## Attributes Acknowledgments
 
 * [Hyper Games Studio](https://github.com/HyperGamesStudio/unity-minmax-slider/blob/master/Editor/MinMaxSliderDrawer.cs) - For providing the base code and idea for the RangedInt/Float classes.
-* [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/0de9be35044bab97cbe79b9ced695585) - For providing the idea of having options to edit the limits on the RangedInt/Float classes.
+* [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/0de9be35044bab97cbe79b9ced695585) - For providing the idea of having options to edit the limits on the RangedInt/Float classes, the base for the Highlight attribute, and the base for the Bar attribute.

@@ -1,4 +1,4 @@
-# Bar Parameter
+# Bar Attribute
 The ***Bar Parameter*** allows to draw a bar filled in a specified color, based on the provided current and max values.
 
 #### End Result:
@@ -9,12 +9,12 @@ If any doubt on how to use the attribute arises, please see the provided example
 
 ## General Notes
 * This attribute can only be used from a field with a ***float or integer*** type.	
-* Currently, 0 is always used as the reference point.
+* Currently, 0 is always used as the reference point for the minumum value of the bar. No exception will be thrown when working with negative numbers, but the bar itself won't be filled up properly.
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Attributes/Animator%20Parameter) instead of the whole project if you want to.
 
 ## As A Reminder 
- * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28).
- Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
+* If you make any changes/improvements to this tool, please do consider sharing them to update the repository. The easiest way to do so is via an e-mail to: contact@heisarzola.com
+* There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28). Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
 * This project's license is located in the repository root under the name "LICENSE.md".
 
 ## Bar Acknowledgments
