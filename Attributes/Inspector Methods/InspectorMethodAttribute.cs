@@ -8,19 +8,18 @@ using System.Reflection;
 
 public class InspectorMethodAttribute : PropertyAttribute
 {
-    #region Public Variables
-
+    //------------------------------------------------------------------------------------//
+    //----------------------------------- FIELDS -----------------------------------------//
+    //------------------------------------------------------------------------------------//
 
     public string methodName;
     public string buttonName;
     public bool useValue;
     public BindingFlags flags;
 
-
-    #endregion Public Variables
-
-
-    #region Constructors
+    //------------------------------------------------------------------------------------//
+    //---------------------------------- METHODS -----------------------------------------//
+    //------------------------------------------------------------------------------------//
 
 
     public InspectorMethodAttribute(string methodName, string buttonName, bool useValue, BindingFlags flags = BindingFlags.Public | BindingFlags.Instance)
@@ -60,8 +59,5 @@ public class InspectorMethodAttribute : PropertyAttribute
         : this(methodName, methodName, false)
     {
     }
-
-
-    #endregion Constructors
 
 }//End of class

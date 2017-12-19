@@ -16,5 +16,5 @@ MonoBehaviour:
   whenTrue: 1
   whenTen: 10
   whenThese3True: 1
-  onRuntime: Let Me Click "Play" Real Quick
+  onRuntime: Click "Play" Real Quick
   multipleParameters: Dark Colors Can Have A White Tag
