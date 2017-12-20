@@ -1,5 +1,5 @@
 # Tools
-These are a collection of several tools, shortcuts and editors, intended to make your life easier by enchancing Unity's default capacilities.
+These are a collection of several tools, shortcuts and editors, intended to make your life easier by enchancing Unity's default capabilities.
 
 ## General Notes
 
