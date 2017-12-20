@@ -20,6 +20,6 @@ You can also add your own custom thumbnails if you wish.
 * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28). Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
 * This project's license is located in the repository root under the name "LICENSE.md".
 
-##Scene Assets Preview Acknowledgments
+## Scene Assets Preview Acknowledgments
 
 * [diegogiacomelli](https://diegogiacomelli.com.br/unity3d-scenepreview-inspector/) - For providing the base class, it was further improved by allowing the tool to work without the need of manually creating folders, now creates thumnails in a folder that will be ignored in builds, beautified instructions when selecting a thumbnail-less scene, and by avoid making a new thumbnail if one already exists, so you can make your own ones.
