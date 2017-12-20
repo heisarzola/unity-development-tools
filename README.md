@@ -43,6 +43,7 @@ This project's license is available in the provided "[LICENSE.md](LICENSE.md)" f
 Not all of the tools were made from scratch, but rather they might've been inspired after, or improved from pre-existing code.
 So here are some people (in alphabetical order) you can personally thank for their own contributions if you want to:
 
+* [amlovey](http://www.amlovey.com/) - For providing the idea of quickly opening special folders for the Quick Opener tool.
 * [anchan828](https://github.com/anchan828/) - For providing (the almost untouched) AnimatorParameter and EnumLabel attributes.
 * [charblar](https://github.com/charblar/) - For providing (the also almost untouched) Sticky Notes Tool.
 * [Hyper Games Studio](https://github.com/HyperGamesStudio/) - For providing the base code and idea for the RangedInt/Float classes.

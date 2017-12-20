@@ -3,6 +3,9 @@ This tool allows to create in any scene an EditorOnly GameObject (Meaning they a
 
 This is very handy for when certain areas of a game need to be improved, but corrections can't be done right away. The drawn gizmo also provides a visual reminder that something needs to be corrected.
 
+#### Provided Tool:
+![](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Tools/Sticky%20Notes/Sticky%20Notes.gif)
+
 ## General Notes
 
 * Once installed, the tool will be located on the top menu under the "Tools/Scene/Sticky Notes" directory to either create a new note or open the search window.
@@ -15,6 +18,6 @@ This is very handy for when certain areas of a game need to be improved, but cor
 * There is a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28). Where you will also receive notifications **when new tools are added to this repository**, for those that are interested.
 * This project's license is located in the repository root under the name "LICENSE.md".
 
-## Attributes Acknowledgments
+## Sticky Notes Acknowledgments
 
 * [charblar](https://github.com/charblar/stickies) - For providing the almost untouched code and idea for the tool. It was improved from the original by forcing the GameObjects with the component to have an "EditorOnly" tag, by improving the overall visual presentation of the search tool and also provide it with a one button way of adding new notes in the scene.
