@@ -9,7 +9,7 @@ This is very handy for when certain areas of a game need to be improved, but cor
 ## General Notes
 
 * Once installed, the tool will be located on the top menu under the "Tools/Scene/Sticky Notes" directory to either create a new note or open the search window.
-* To make new notes you can alternatively add the "StickyNote" component to an empty GameObject (***WARNING: DO NOT ADD THIS DIRECTLY TO IMPORTANT GAME OBJECTS***, as it will change their tag to "EditorOnly" and will be excluded from the build.) or add them via the "+" button on the search window.
+* To make new notes you can alternatively add them via the "+" button on the search window, or add the "StickyNote" component to an empty GameObject. ***FAIR WARNING: DO NOT ADD THIS DIRECTLY TO IMPORTANT GAME OBJECTS***, as it will change their tag to "EditorOnly" and will be excluded from the build. Instead, you should have a section in your hierarchy composed of Sticky Notes only.
 * This tool requires the [Sticky Notes Icons](https://github.com/heisarzola/Unity-Development-Tools/tree/master/Gizmos/Sticky%20Notes) to work, they are ***MANDATORY TO HAVE*** in order for that tool to work. Also, the names and path of said icons are hardcoded so please keep all of them inside the "Assets/Gizmos/Sticky Notes" directory with the provided names intact. (Unless you wish to manually change them).
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools/Sticky%20Notes) instead of the whole project if you want to.
 

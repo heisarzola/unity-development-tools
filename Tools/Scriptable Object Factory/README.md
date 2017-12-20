@@ -19,4 +19,4 @@ For further documentation on this tool and Scriptable Objects, refer to [Arzola'
 
 ## Scriptable Object Factory Acknowledgments
 
-* [Liortal](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory. The original work was improved to be able to support the "first-pass" assembly (for Scriptable Objects in the Plugins/Standard Assets/Pro Standard Assets folders), to be able to show namespaces, and to provide a cleaner default naming convention for created assets.
+* [liortal53](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory. The original work was improved to be able to support the "first-pass" assembly (for Scriptable Objects in the Plugins/Standard Assets/Pro Standard Assets folders), to be able to show namespaces, and to provide a cleaner default naming convention for created assets.

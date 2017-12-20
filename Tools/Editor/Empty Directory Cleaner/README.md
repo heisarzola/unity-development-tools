@@ -8,7 +8,7 @@ This is specially useful when working with git, because git ***DOESN'T*** track 
 
 ## General Notes
 
-* Once installed, the tool will be located on the top menu under the "Tools/Project/Delete Empty Folders".
+* Once installed, the tool will be located on the top menu under the "Tools/Project/Delete Empty Folders" directory.
 * Please note that this tool ***REQUIRES*** to be within an "Editor" named folder to work. (For more information about the reason, look at [Unity's official documentation](https://docs.unity3d.com/560/Documentation/Manual/SpecialFolders.html).)
 * For the auto-cleaning-on-save to work, keep in mind that ***the window needs to be open***. But it is so small you can just tuck it away in a corner, so it shouldn't be a problem.
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools/Editor/Empty%20Directory%20Cleaner) instead of the whole project if you want to.

@@ -6,7 +6,7 @@ This little tool auto-saves the open scene every X minutes and before you enter 
 This tool also supports saving scenes as a backup (to avoid modifying the original).
 
 #### Provided Tool:
-![](https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools/Editor/Auto%20Saver/Auto%20Saver.png)
+![Auto Saver Preferences](https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools/Editor/Auto%20Saver/Auto%20Saver.png "These are the Auto Saver Preferences.")
 
 ## General Notes
 

@@ -46,7 +46,9 @@ So here are some people (in alphabetical order) you can personally thank for the
 * [amlovey](http://www.amlovey.com/) - For providing the idea of quickly opening special folders for the Quick Opener tool.
 * [anchan828](https://github.com/anchan828/) - For providing (the almost untouched) AnimatorParameter and EnumLabel attributes.
 * [charblar](https://github.com/charblar/) - For providing (the also almost untouched) Sticky Notes Tool.
+* [diegogiacomelli](http://diegogiacomelli.com.br/) - For providing the base for the Scene Preview tool.
 * [Hyper Games Studio](https://github.com/HyperGamesStudio/) - For providing the base code and idea for the RangedInt/Float classes.
 * [kir-avramenko](https://github.com/kir-avramenko/) - For providing the Rich Text Tags idea for the string class extension.
-* [Liortal](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory.
+* [liortal53](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory, as well as the base for the Auto Saver tool.
 * [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/) - For providing the idea of having options to edit the limits on the RangedInt/Float classes, the base for the Highlight attribute, and the base for the Bar attribute.
+* [reptoidgames](http://www.reptoidgames.com/goodies/) - For providing the group utility.
