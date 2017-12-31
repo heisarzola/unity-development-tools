@@ -18,4 +18,4 @@ If any doubt on how to use the attribute arises, please see the provided example
 
 ## Animator Parameter Acknowledgments
 
-* [anchan828](https://github.com/HyperGamesStudio/unity-minmax-slider/blob/master/Editor/MinMaxSliderDrawer.cs) - For providing the class (that was almost left untouched).
+* [anchan828](https://github.com/anchan828/property-drawer-collection/tree/master/AnimatorParameter) - For providing the class (that was almost left untouched).
