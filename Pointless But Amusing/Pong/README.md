@@ -3,7 +3,7 @@ Ever wanted a one-player, and ultra slow version of pong? No? Well, here you hav
 
 #### End Result:
 
-![](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Pointless-But-Amusing/Pong/Pong.gif)
+![](https://github.com/heisarzola/Unity-Development-Tools/blob/master/Pointless%20But%20Amusing/Pong/Pong.gif)
 
 If you have any doubt in how to use this *incredibly useful (?)* addition to your Unity project, it is a component. This means you can add it directly to any GameObject you want.
 
