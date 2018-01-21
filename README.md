@@ -43,6 +43,7 @@ This project's license is available in the provided "[LICENSE.md](LICENSE.md)" f
 Not all of the tools were made from scratch, but rather they might've been inspired after, or improved from pre-existing code.
 So here are some people (in alphabetical order) you can personally thank for their own contributions if you want to:
 
+* [abagames](https://github.com/abagames/pongpector) - For making pong available in the inspector.
 * [amlovey](http://www.amlovey.com/) - For providing the idea of quickly opening special folders for the Quick Opener tool.
 * [anchan828](https://github.com/anchan828/) - For providing (the almost untouched) AnimatorParameter and EnumLabel attributes.
 * [charblar](https://github.com/charblar/) - For providing (the also almost untouched) Sticky Notes Tool.
@@ -53,4 +54,5 @@ So here are some people (in alphabetical order) you can personally thank for the
 * [liortal53](https://github.com/liortal53/) - For providing the base for the Scriptable Object Factory, as well as the base for the Auto Saver tool.
 * [Lotte Makes Stuff](https://gist.github.com/LotteMakesStuff/) - For providing the idea of having options to edit the limits on the RangedInt/Float classes, the base for the Highlight attribute, and the base for the Bar attribute.
 * [plyoung](https://github.com/plyoung/) - For providing the untouched Favorite Assets tool.
+* [Proto Turtle](https://github.com/ProtoTurtle/UnityBitmapDrawing) - For providing a way to draw bitmaps (including within the Unity Inpector).
 * [reptoidgames](http://www.reptoidgames.com/goodies/) - For providing the group utility.
