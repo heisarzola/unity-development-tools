@@ -45,7 +45,7 @@ using UnityEditor;
 [CustomPropertyDrawer(typeof(RangedFloatAttribute))]
 class RangedFloatAttributeDrawer : PropertyDrawer // [1]
 {
-    private const float _COMPONENT_HEIGHT = 18f;
+    private const float _COMPONENT_HEIGHT = 16f;
     private const float _VERTICAL_PADDING = 2f;
 
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
@@ -170,7 +170,7 @@ class RangedFloatAttributeDrawer : PropertyDrawer // [1]
     {
         RangedFloatAttribute rangedFloatAttribute = attribute as RangedFloatAttribute;
         int additionalRows = rangedFloatAttribute.rangeDisplayType == RangedFloatAttribute.RangeDisplayType.HideRanges ? 0 : 2;
-        return base.GetPropertyHeight(property, label) + (additionalRows * _COMPONENT_HEIGHT);
+        return base.GetPropertyHeight(property, label) + _COMPONENT_HEIGHT + (additionalRows * _COMPONENT_HEIGHT);
     }//End of GetPropertyHeight(SerializedProperty property, GUIContent label)
 
 

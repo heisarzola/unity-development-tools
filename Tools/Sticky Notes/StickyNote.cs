@@ -27,7 +27,7 @@
  *       -- <<< EMPTY >>>
  *
  *   <<< SOURCES >>>
- *       -- [1] Base class : https://github.com/charblar/Sticky Notes
+ *       -- [1] Base class : https://github.com/charblar/stickies
 //---------------------------------------------------------------------*/
 
 /*---------------------------- CHANGELOG -------------------------------//
