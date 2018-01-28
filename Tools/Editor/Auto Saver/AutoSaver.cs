@@ -148,7 +148,7 @@ namespace Sakura.Core.Tools
         {
             if (playModeStateChange == PlayModeStateChange.ExitingEditMode && AutoSaveBeforeRuntime)
             {
-                SakuraDebug.Log("Auto-Saving scene before entering Play mode: ".Append(SceneManager.GetActiveScene().name));
+                Debug.Log("Auto-Saving scene before entering Play mode: ".Append(SceneManager.GetActiveScene().name));
                 SaveScene();
             }
         }
