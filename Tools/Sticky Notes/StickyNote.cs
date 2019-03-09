@@ -8,7 +8,7 @@
  *       -- Sticky Note.
  *       
  *   <<< DESCRIPTION >>>
- *       -- Component intended to hold information that mimics Window's Sticky Notes.
+ *       -- Component intended to hold information that mimics Window's Images.
  *
  *   <<< LIMITATIONS >>>
  *       -- None.
@@ -69,7 +69,7 @@ public class StickyNote : MonoBehaviour
     //---------------------------------- METHODS -----------------------------------------//
     //------------------------------------------------------------------------------------//
 
-    [MenuItem("Tools/Scene/Sticky Notes/Create Note", priority = 0)]
+    [MenuItem("Tools/Scene/Images/Create Note", priority = 0)]
     public static void CreateNote()
     {
         var note = new GameObject("New Note", typeof(StickyNote)) { tag = "EditorOnly" };
@@ -90,22 +90,22 @@ public class StickyNote : MonoBehaviour
         switch (_color)
         {
             case NoteColor.White:
-                Gizmos.DrawIcon(transform.position, "Sticky Notes/Gizmos_Note_White", true);
+                Gizmos.DrawIcon(transform.position, "Images/Gizmos_Note_White", true);
                 break;
             case NoteColor.Yellow:
-                Gizmos.DrawIcon(transform.position, "Sticky Notes/Gizmos_Note_Yellow", true);
+                Gizmos.DrawIcon(transform.position, "Images/Gizmos_Note_Yellow", true);
                 break;
             case NoteColor.Blue:
-                Gizmos.DrawIcon(transform.position, "Sticky Notes/Gizmos_Note_Blue", true);
+                Gizmos.DrawIcon(transform.position, "Images/Gizmos_Note_Blue", true);
                 break;
             case NoteColor.Pink:
-                Gizmos.DrawIcon(transform.position, "Sticky Notes/Gizmos_Note_Pink", true);
+                Gizmos.DrawIcon(transform.position, "Images/Gizmos_Note_Pink", true);
                 break;
             case NoteColor.Green:
-                Gizmos.DrawIcon(transform.position, "Sticky Notes/Gizmos_Note_Green", true);
+                Gizmos.DrawIcon(transform.position, "Images/Gizmos_Note_Green", true);
                 break;
             default:
-                Gizmos.DrawIcon(transform.position, "Sticky Notes/Gizmos_Note_White", true);
+                Gizmos.DrawIcon(transform.position, "Images/Gizmos_Note_White", true);
                 break;
         }
     }
