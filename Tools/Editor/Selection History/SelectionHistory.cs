@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 18-Dec-17 -----------------//
-//------------ Last Modification Date: 18-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -16,26 +13,6 @@
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- Make a system to save selections before closing the editor.
- *
- *   <<< SOURCES >>>
- *       -- [1] Base class : https://pastebin.com/V9kkemiu
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 18-Dec-17 >>>
- *       -- Created using the reference. [1]
- *       -- Improved by allowing to show/hide scene/project elements as wanted. 
- *       -- Improved by adding a little toggle to ignore new selections if needed.
- *       -- Improved by making the scene elements more noticeable on the "Any" view, by adding the name of the active scene.
- *       -- Made both above settings save themselves on EditorPrefs.
 //----------------------------------------------------------------------*/
 
 using UnityEditor;

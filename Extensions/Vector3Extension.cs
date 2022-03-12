@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 04-Jun-17 -----------------//
-//------------ Last Modification Date: 18-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -9,9 +6,6 @@
  *       
  *   <<< DESCRIPTION >>>
  *       -- This file contains all of the Vector3 extension methods.
- *
- *   <<< LIMITATIONS >>>
- *       -- None.
  *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
@@ -30,24 +24,6 @@
  *      <<< CLASS EXTENSIONS >>>
  *          -- Vector3 GetOffsettedValue(this Vector3 thisVector3, float x, float y, float z)
  */
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
-*   <<< TO-DO LIST >>>
-*       -- <<< EMPTY >>>
-*
-*   <<< POSSIBLES >>>
-*       -- <<< EMPTY >>>
-*
-*   <<< SOURCES >>>
-*       -- <<< EMPTY >>>
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 04-Jun-17 >>>
- *       -- Class creation and GetOffsettedValue implementation.
- *   <<< V.1.0.1 -- 18-Dec-17 >>>
- *       -- Added Sub Vector methods.
 //----------------------------------------------------------------------*/
 
 using UnityEngine;

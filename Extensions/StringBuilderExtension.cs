@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 12-Jul-17 -----------------//
-//------------ Last Modification Date: 12-Jul-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -9,9 +6,6 @@
  *       
  *   <<< DESCRIPTION >>>
  *       -- This file contains all of the Enum String Builder methods.
- *
- *   <<< LIMITATIONS >>>
- *       -- None.
  *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
@@ -28,22 +22,6 @@
  *         -- void Clear(this StringBuilder value)
  *         -- void Append(this StringBuilder value, params string[] toAppend)
  */
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] StringBuilder Clear : https://stackoverflow.com/questions/1709471/best-way-to-clear-contents-of-nets-stringbuilder
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 12-Jul-17 >>>
- *       -- Created class, added Append overrides and Clear methods.
 //----------------------------------------------------------------------*/
 
 using System.Text;

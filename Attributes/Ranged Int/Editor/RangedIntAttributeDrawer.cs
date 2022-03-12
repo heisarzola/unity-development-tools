@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 13-Jul-16 -----------------//
-//------------ Last Modification Date: 08-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,32 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Class that draws the ranged float attribute.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: 
  *          -- None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Base Property Drawer: https://github.com/HyperGamesStudio/unity-minmax-slider/blob/master/Editor/MinMaxSliderDrawer.cs
- *       -- [2] Idea of including editable limits: https://gist.github.com/LotteMakesStuff/0de9be35044bab97cbe79b9ced695585 
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 13-Jul-16 >>>
- *       -- Class creation.
- *   <<< V.1.0.1 -- 08-Dec-17 >>>
- *       -- Implemented options that allow editing/hiding limits if needed.
 //----------------------------------------------------------------------*/
 
 using System.Globalization;

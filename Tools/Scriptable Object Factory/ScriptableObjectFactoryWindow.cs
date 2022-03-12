@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 15-Apr-17 -----------------//
-//------------ Last Modification Date: 15-Jun-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -16,28 +13,6 @@
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None
  *       -- Module: ScriptableObjectFactory
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- Add support for filtering via a textbox.
- *
- *   <<< SOURCES >>>
- *       -- [1] Almost all main class : https://github.com/liortal53/ScriptableObjectFactory/blob/master/Assets/Editor/ScriptableObjectWindow.
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 15-Apr-17 >>>
- *       -- Created base class according to source.
- *   <<< V.1.0.1 -- 15-Apr-17 >>>
- *       -- Cleaned the name of the generated asset by removing namespaces, implemented neat naming convention.
- *   <<< V.1.0.2 -- 23-May-17 >>>
- *       -- Made the window dockable and allowed it to restart its values on recompile. Added alphabetic ordering.
- *   <<< V.1.0.3 -- 15-Jun-17 >>>
- *       -- Fixed a bug where setting the namespace option off didn't alphabetically reorganize the SO list, and adapted it to work with the "first-pass" assembly (Plugins, etc).
 //----------------------------------------------------------------------*/
 
 using System;

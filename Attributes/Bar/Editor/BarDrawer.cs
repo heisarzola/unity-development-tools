@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 09-Dec-17 -----------------//
-//------------ Last Modification Date: 09-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,34 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Draws a bar on top of the specificed numerical value, filled based on a specified max bar value.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: 
  *          -- None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- Include the possibility of drawing from a property, not only int and float fields.
- *
- *   <<< SOURCES >>>
- *       -- [1] Base Class : https://gist.github.com/LotteMakesStuff/2d3c6dc7a913ed118601db95735574de
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 09-Dec-17 >>>
- *       -- Created using the reference. [1]
- *       -- Improved by caching the expensive reflection operations. 
- *       -- Improved by ensuring the colored always remained visible.
- *       -- Improved by adding several new color options.
- *       -- Added ability to provide a custom initial value, and support properties and parameterless methods.
- *       -- Improved by allowing any value (floats were allowed only when less than 1).
 //----------------------------------------------------------------------*/
 
 using System;

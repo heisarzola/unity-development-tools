@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 09-Dec-17 -----------------//
-//------------ Last Modification Date: 09-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,34 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Attribute in charge of containing the information that references a method call, color and parameters in order to highlight an area in a color when needed.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: 
  *          -- None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- Add support for multiple colors depending on several conditions.
- *
- *   <<< SOURCES >>>
- *       -- [1] Base Class : https://gist.github.com/LotteMakesStuff/2d3c6dc7a913ed118601db95735574de
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 09-Dec-17 >>>
- *       -- Created using the reference. [1]
- *       -- Improved by caching the expensive reflection operations. 
- *       -- Improved by ensuring highlight always remained visible.
- *       -- Improved by adding several new color options.
- *       -- Improved by adding multiple parameter support for the provided method.
- *       -- Fixed the tag color, white should be used on SELECTED dark highlights.
 //----------------------------------------------------------------------*/
 
 

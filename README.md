@@ -20,19 +20,6 @@ Finally, every script was documented for easy usage when making use of [Visual S
 * Currently the intention is to keep these tools in C# only, no plans of porting to other languages.
 * If you wish to provide tools to include them in this repo (and comply with the [license](LICENSE.md) it has), do please *send an e-mail* to ***contact@heisarzola.com***.
 * If you want to report a problem or bug, please do so in the ***issues section*** of the GitHub repository.
-* Finally, considering you are using GitHub, you might be interested in a [*newsletter for game development tips, tricks and tutorials*](https://heisarzola.us16.list-manage.com/subscribe?u=711c0d50be32d6a5eca3ccb18&id=43d6d70f28). Where you will also receive notifications **when new tools are added to this repository**, so make sure to check it out.
-
-## About The Author
-
-Arzola is an indie game developer that works under the motto: 
-**"Messing With Your Brain, Via Thought-Provoking Games."** You can read more in [his website](http://heisarzola.com) if you so desire.
-
-Likewise, on his social media (starting December 2017) it is attempted to share tools like those included in the collection. In case anyone wants to follow:
-
-[Twitter](https://twitter.com/heisarzola/)
- | [Facebook](https://www.facebook.com/heisarzola/)
- | [Instagram (Developer Tips)](https://www.instagram.com/heisarzola/)
- | [Developer Blog](http://heisarzola.com/devblog/)
 
 ## License
 

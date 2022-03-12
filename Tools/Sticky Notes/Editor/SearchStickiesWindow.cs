@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 18-Dec-17 -----------------//
-//------------ Last Modification Date: 18-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,31 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Editor window that allows searching within a scene all sticky notes.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module:
  *          -- StickyNote
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Base class : https://github.com/charblar/stickies
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 18-Dec-17 >>>
- *       -- Added class based on the reference [1].
- *       -- Improved class by adding an option to add a new note in the scene.
- *       -- Improved overall visibility of the different elements of the window.
 //----------------------------------------------------------------------*/
 
 using System;

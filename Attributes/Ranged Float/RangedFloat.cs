@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 13-Jul-16 -----------------//
-//------------ Last Modification Date: 08-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,31 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Class intended to be an alternative to Vector2 for inspector usage of ranged values.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: 
  *          -- None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- <<< EMPTY >>>
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 13-Jul-16 >>>
- *       -- Class creation.
- *   <<< V.1.0.1 -- 08-Dec-17 >>>
- *       -- Implemented options that allow editing/hiding limits if needed.
 //----------------------------------------------------------------------*/
 
 using UnityEngine;

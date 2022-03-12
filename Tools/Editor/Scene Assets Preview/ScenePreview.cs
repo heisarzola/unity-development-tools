@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 06-Dec-17 -----------------//
-//------------ Last Modification Date: 09-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -17,24 +14,6 @@
  *       -- Plugins: None
  *       -- Module: None
 //----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Almost entire class : https://diegogiacomelli.com.br/unity3d-scenepreview-inspector/
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 06-Dec-17 >>>
- *       -- Created base class and adapted source [1] to work without necessarily having to manually create folders, works in a folder that is ignored by compiler, and has neatly organized instructions when preview is unavailable.
- *   <<< V.1.0.1 -- 09-Dec-17 >>>
- *       -- If a thumbnail already exists, a new one won't be created.
- //----------------------------------------------------------------------*/
 
 using System.IO;
 using UnityEngine;

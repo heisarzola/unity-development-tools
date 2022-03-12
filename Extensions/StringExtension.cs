@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 11-Mar-17 ------------------//
-//------------ Last Modification Date: 06-Dec-17 -------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,92 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- The string extension class contains several methods that .
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: StringBuilderExtension
 //----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
-*   <<< TO-DO LIST >>>
-*       -- <<< EMPTY >>>
-*
-*   <<< POSSIBLES >>>
-*       -- <<< EMPTY >>>
-*
-*   <<< SOURCES >>>
-*       -- [1] String Split : http://stackoverflow.com/questions/4488969/split-a-string-by-capital-letters
-*       -- [2] Case Insensitive Contains : https://stackoverflow.com/questions/444798/case-insensitive-containsstring
-*       -- [3] Is Numeric : https://stackoverflow.com/questions/894263/how-do-i-identify-if-a-string-is-a-number
-*       -- [4] Substitute Char : https://stackoverflow.com/questions/9367119/replacing-a-char-at-a-given-index-in-string
-*       -- [5] Char Counting : https://stackoverflow.com/questions/5340564/counting-how-many-times-a-certain-char-appears-in-a-string-before-any-other-char
-*       -- [6] Rich Text Formats : https://github.com/kir-avramenko/DebugLog-Helper
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 11-Mar-17 >>>
- *       -- Created class and added Replace methods for every Nth instance of a string / char.
- *   <<< V.1.0.1 -- 15-Apr-17 >>>
- *       -- Added From CamelCaseToSeparated.
- *   <<< V.1.0.2 -- 16-Jun-17 >>>
- *       -- Added Contains and IsNumeric.
- *   <<< V.1.0.3 -- 17-Jul-17 >>>
- *       -- Added a method to correctly append text.
- *   <<< V.1.0.4 -- 20-Aug-17 >>>
- *       -- Added the ability to count the times a given char appears on a string.
- *   <<< V.1.0.5 -- 06-Dec-17 >>>
- *       -- Updated some method names and implemented params usage on the Append method.
- //----------------------------------------------------------------------*/
-
-using System.Text.RegularExpressions;
-using System;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-
-//------------------------------------------------------------------------------------//
-//----------------------------- ENUM DECLARATIONS ------------------------------------//
-//------------------------------------------------------------------------------------//
-
-public enum RichTextColors
-{
-    aqua,
-    black,
-    blue,
-    brown,
-    cyan,
-    darkblue,
-    fuchsia,
-    green,
-    grey,
-    lightblue,
-    lime,
-    magenta,
-    maroon,
-    navy,
-    olive,
-    purple,
-    red,
-    silver,
-    teal,
-    white,
-    yellow
-}
-
-public static class StringExtension
-{
-
-    //------------------------------------------------------------------------------------//
-    //----------------------------------- FIELDS -----------------------------------------//
-    //------------------------------------------------------------------------------------//
-
-    private static readonly StringBuilder _stringBuilder = new StringBuilder();
-
-    /*------------------------------------------------------------------------------------//
-    //---------------------------------- METHODS -----------------------------------------//
-    //------------------------------------------------------------------------------------*/
 
     #region Class Extensions
 

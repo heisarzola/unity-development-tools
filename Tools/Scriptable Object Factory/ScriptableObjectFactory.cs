@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 15-Apr-17 -----------------//
-//------------ Last Modification Date: 15-Apr-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -9,9 +6,6 @@
  *       
  *   <<< DESCRIPTION >>>
  *       -- A helper class for instantiating ScriptableObjects in the editor.
- *
- *   <<< LIMITATIONS >>>
- *       -- None.
  *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
@@ -32,22 +26,6 @@
  *          -- Assembly GetAssembly()
  *          -- Assembly GetPluginAssembly()
  */
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Most of the class : https://github.com/liortal53/ScriptableObjectFactory/blob/master/Assets/Editor/ScriptableObjectFactory.cs
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 15-Apr-17 >>>
- *       -- Class creation.
 //----------------------------------------------------------------------*/
 
 using System;

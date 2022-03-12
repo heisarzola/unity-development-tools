@@ -1,7 +1,4 @@
 
-/*---------------- Creation Date: 18-Jul-16 -----------------//
-//------------ Last Modification Date: 18-Jul-16 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,29 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Empty attribute intended to leave disabled any provided field it is found above. (This functionality comes from its drawer)
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: 
  *          -- None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Drawer Idea : http://www.jeffpizano.com/blog/2015/06/read-only-properties-in-unity3d-inspector/
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 18-Jul-16 >>>
- *       -- Created using the given reference. [1]
 //----------------------------------------------------------------------*/
 
 using System;

@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 18-Dec-17 -----------------//
-//------------ Last Modification Date: 18-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,30 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Component intended to hold information that mimics Window's Sticky Notes.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module:
  *          -- Gizmos/Stickes icons.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Base class : https://github.com/charblar/stickies
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 18-Dec-17 >>>
- *       -- Added class based on the reference [1].
- *       -- Improved class by forcing any game object with the component to have the tag "EditorOnly".
 //----------------------------------------------------------------------*/
 
 using UnityEditor;

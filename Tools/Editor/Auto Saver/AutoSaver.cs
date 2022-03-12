@@ -1,9 +1,5 @@
 ﻿
 
-/*---------------- Creation Date: 15-Dec-17 -----------------//
-//------------ Last Modification Date: 19-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
-
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
  *       -- Auto Saver.
@@ -11,32 +7,9 @@
  *   <<< DESCRIPTION >>>
  *       -- Class in charge of autosaving scenes after a set interval of time, before entering playmode and in other relevant moments.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Base class, saves every 5 minutes : https://github.com/liortal53/AutoSaveScene/blob/master/Assets/Editor/AutoSaveScene.cs
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 15-Dec-17 >>>
- *       -- Class created, supports auto save every 5 minutes, when playmode starts, it also attempts to save before editor closes.
- *   <<< V.1.0.1 -- 19-Dec-17 >>>
- *       -- Auto save settings should now be visible within the Preferences tab.
- *       -- Added options to personalize auto save time, save before runtime, save backups, max amount of backups, and custom backup folder.
- *       -- Implemented backup scene saving [1], improving it by allowing a max amount of scene backup per original scene.
 //----------------------------------------------------------------------*/
 
 using System;

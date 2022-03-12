@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 13-Jul-16 -----------------//
-//------------ Last Modification Date: 08-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,29 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Fallback drawer in case the class RangedFloat is inteneded to be used without the RangedFloatAttribute.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: 
  *          -- None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- <<< EMPTY >>>
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 13-Jul-16 >>>
- *       -- Class creation.
 //----------------------------------------------------------------------*/
 
 using UnityEditor;

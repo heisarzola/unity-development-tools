@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 07-Dec-17 -----------------//
-//------------ Last Modification Date: 07-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -16,22 +13,6 @@
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: DeleteEmptyFoldersWindow
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- Add an empty folder exception list.
- *
- *   <<< SOURCES >>>
- *       -- [1] Most of the class : Afraid original URL was lost.
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 07-Dec-17 >>>
- *       -- Class created and cleaned from all redundant/unused data from the base [1].
 //----------------------------------------------------------------------*/
 
 using UnityEngine;

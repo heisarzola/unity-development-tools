@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 19-Jan-17 -----------------//
-//------------ Last Modification Date: 19-Jan-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 using UnityEngine;
 using System.Reflection;

@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 15-Dec-17 -----------------//
-//------------ Last Modification Date: 15-Dec-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -10,29 +7,10 @@
  *   <<< DESCRIPTION >>>
  *       -- Utility in charge of grouping the selected scene objects.
  *
- *   <<< LIMITATIONS >>>
- *       -- None.
- *
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module:
  *          -- GameObject
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
- *   <<< TO-DO LIST >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< POSSIBLES >>>
- *       -- <<< EMPTY >>>
- *
- *   <<< SOURCES >>>
- *       -- [1] Unedited whole tool : http://www.reptoidgames.com/goodies/GroupUtility.cs
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 15-Dec-17 >>>
- *       -- Unedited method recovered from source [1].
 //----------------------------------------------------------------------*/
 
 using UnityEngine;

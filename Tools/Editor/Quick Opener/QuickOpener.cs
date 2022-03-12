@@ -1,7 +1,4 @@
 ﻿
-/*---------------- Creation Date: 18-Feb-17 -----------------//
-//------------ Last Modification Date: 18-Feb-17 ------------//
-//----------- Luis Arzola: http://heisarzola.com ------------*/
 
 /*----------------------------- OVERVIEW -------------------------------//
  *   <<< NAME >>>
@@ -16,23 +13,6 @@
  *   <<< DEPENDENCIES >>>
  *       -- Plugins: None.
  *       -- Module: None.
-//----------------------------------------------------------------------*/
-
-/*------------------------------- NOTES --------------------------------//
-*   <<< TO-DO LIST >>>
-*       -- <<< EMPTY >>>
-*
-*   <<< POSSIBLES >>>
-*       -- <<< EMPTY >>>
-*
-*   <<< SOURCES >>>
-*       -- [1] Base : https://www.assetstore.unity3d.com/en/#!/content/68761
-*       -- [2] Asset Store Packagues Locations : http://answers.unity3d.com/questions/45050/where-unity-store-saves-the-packages.html
-//---------------------------------------------------------------------*/
-
-/*---------------------------- CHANGELOG -------------------------------//
- *   <<< V.1.0.0 -- 18-Feb-17 >>>
- *       -- Class creation, removed many other components from a free asset. [1]
 //----------------------------------------------------------------------*/
 
 using UnityEditor;
