@@ -18,7 +18,7 @@ Finally, every script was documented for easy usage when making use of [Visual S
 * Not all scripts are fully documented, as some are tools intended to be used rather than inspected on a source code level. If you would like for a specific tool's code to be documented, feel free to request so.
 * The author does not claim to have made ALL of the provided tools and snippets, some are just improvements and adaptations over other creators' work. (Check "Acknowledgments" on each subfolder.)
 * Currently the intention is to keep these tools in C# only, no plans of porting to other languages.
-* If you wish to provide tools to include them in this repo (and comply with the [license](LICENSE.md) it has), do please *send an e-mail* to ***contact@heisarzola.com***.
+* If you wish to provide tools to include them in this repo (and comply with the [license](LICENSE.md) it has), do please send a pull request.
 * If you want to report a problem or bug, please do so in the ***issues section*** of the GitHub repository.
 
 ## License

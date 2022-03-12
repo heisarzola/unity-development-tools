@@ -8,5 +8,5 @@ These are a collection of several tools, shortcuts and editors, intended to make
 * You can [download this folder only](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/heisarzola/Unity-Development-Tools/tree/master/Tools) instead of the whole project if you want to.
 
 ## As A Reminder 
-* If you make any changes/improvements to this tool, please do consider sharing them to update the repository. The easiest way to do so is via an e-mail to: contact@heisarzola.com
+* If you make any changes/improvements to this tool, please do consider sharing them to update the repository via a pull request.
 * This project's license is located in the repository root under the name "LICENSE.md".
