@@ -12,6 +12,63 @@
  *       -- Module: StringBuilderExtension
 //----------------------------------------------------------------------*/
 
+/*------------------------------- NOTES --------------------------------//
+*   <<< SOURCES >>>
+*       -- [1] String Split : http://stackoverflow.com/questions/4488969/split-a-string-by-capital-letters
+*       -- [2] Case Insensitive Contains : https://stackoverflow.com/questions/444798/case-insensitive-containsstring
+*       -- [3] Is Numeric : https://stackoverflow.com/questions/894263/how-do-i-identify-if-a-string-is-a-number
+*       -- [4] Substitute Char : https://stackoverflow.com/questions/9367119/replacing-a-char-at-a-given-index-in-string
+*       -- [5] Char Counting : https://stackoverflow.com/questions/5340564/counting-how-many-times-a-certain-char-appears-in-a-string-before-any-other-char
+*       -- [6] Rich Text Formats : https://github.com/kir-avramenko/DebugLog-Helper
+//---------------------------------------------------------------------*/
+
+using System.Text.RegularExpressions;
+using System;
+using System.Linq;
+using System.Text;
+
+//------------------------------------------------------------------------------------//
+//----------------------------- ENUM DECLARATIONS ------------------------------------//
+//------------------------------------------------------------------------------------//
+
+public enum RichTextColors
+{
+    aqua,
+    black,
+    blue,
+    brown,
+    cyan,
+    darkblue,
+    fuchsia,
+    green,
+    grey,
+    lightblue,
+    lime,
+    magenta,
+    maroon,
+    navy,
+    olive,
+    purple,
+    red,
+    silver,
+    teal,
+    white,
+    yellow
+}
+
+public static class StringExtension
+{
+
+    //------------------------------------------------------------------------------------//
+    //----------------------------------- FIELDS -----------------------------------------//
+    //------------------------------------------------------------------------------------//
+
+    private static readonly StringBuilder _stringBuilder = new StringBuilder();
+
+    /*------------------------------------------------------------------------------------//
+    //---------------------------------- METHODS -----------------------------------------//
+    //------------------------------------------------------------------------------------*/
+
     #region Class Extensions
 
     /// <summary>
